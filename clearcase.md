@@ -45,8 +45,8 @@ When using ```ct lsvtree -g "filename"``` on can select any version to copy the 
 To put a file under ClearCase control you must first check-out the directory that will be containing the file, issue the command to tell ClearCase to put the file under version control, and then check-in the directory containing the new file. Here are commands to perform these steps:
 ```
   cleartool co thedirectory  
-	cleartool mkelem thefile  
-	cleartool ci thedirectory
+  cleartool mkelem thefile  
+  cleartool ci thedirectory
   ```
 
 ### Deleting elements
