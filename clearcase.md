@@ -5,10 +5,10 @@ http://www.yolinux.com/TUTORIALS/ClearcaseCommands.html
 https://www.ibm.com/developerworks/rational/library/836-pdf.pdf
 
 ### Config specification
-	- Contains information about what you see in your view
-	- You may have an incorrect (according to you) view of the files, for example not viewing the latest version
-		- To reset:
-			``` § Xclearcase -> view -> config spec -> display/edit/...```
+- Contains information about what you see in your view
+- You may have an incorrect (according to you) view of the files, for example not viewing the latest version
+	- To reset:
+		``` § Xclearcase -> view -> config spec -> display/edit/...```
 
 ### Various settings commands
 | Command        | description           |
@@ -38,7 +38,7 @@ When using ```ct lsvtree -g "filename"``` on can select any version to copy the 
 | ```cleartool unco "filename"	 ``` | Undo checkout |
 
 ### Checkout flags
-```-unr```:	Unreserved. Other people can edit the file you have checked out.
+```-unr```:	Unreserved. Other people can edit the file you have checked out.  
 ```-nc```: 	No comments
 
 ### Putting a file under version control
