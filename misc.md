@@ -3,8 +3,7 @@
   setenv IS_GIT_REPO `git rev-parse --git-dir >& /dev/null; echo $?`   
   setenv GIT_BRANCH_CMD "sh -c 'git branch --no-color 2> /dev/null' | grep '^*' | sed -r -e 's/[()]//g' -e 's/^\*\s*(.*)/\1/'"  
 ```
-### History search
-# Key binding
+### History search - Key binding
 ```
 bindkey "\e[A" history-search-backward  
 bindkey "\e[B" history-search-forward
@@ -73,5 +72,5 @@ bindkey "\e[B" history-search-forward
 ### Sublime + CTAGS
 https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md#Alternative_Code-Completion-with-Ctags
 
-Ladda ner och lägg till Exuberant Ctags och lägg till i path. http://ctags.sourceforge.net/
-Installera Sublime CTags plugin.
+Download and add Exuberant Ctags to PATH. http://ctags.sourceforge.net/
+Install Sublime CTags plugin.
