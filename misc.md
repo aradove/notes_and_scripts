@@ -69,3 +69,9 @@ bindkey "\e[B" history-search-forward
 # https://github.com/kujiy/how-to-change-sublime-minimap-color     
 # https://gist.github.com/bwonur/c4b5dd363386dcfaf4489125eaab875b  
 ```
+
+### Sublime + CTAGS
+https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md#Alternative_Code-Completion-with-Ctags
+
+Ladda ner och lägg till Exuberant Ctags och lägg till i path. http://ctags.sourceforge.net/
+Installera Sublime CTags plugin.
