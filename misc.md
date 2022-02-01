@@ -74,3 +74,20 @@ https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md#Alte
 
 Download and add Exuberant Ctags to PATH. http://ctags.sourceforge.net/
 Install Sublime CTags plugin.
+
+### rebase with conflict
+Simplest is to use meld, install it.
+
+Make sure the changes are in the remote repository.   
+```
+git reset --hard 'previous-commit-id'
+git fetch
+git rebase origin/master
+git cherrypick 'my-new-commit-id'
+```
+Solve the conflict.   
+Push and you are done. 
+
+
+
+
