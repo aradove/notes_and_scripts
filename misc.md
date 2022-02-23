@@ -92,6 +92,11 @@ Push and you are done.
 ```
 outlook.exe /manageprofiles
 ```
-
+### Outlook solve random licence issues
+```
+cd C:\Program Files (x86)\Microsoft Office\Office16
+cscript ospp.vbs /dstatus    
+cscript ospp.vbs /act
+```
 
 
