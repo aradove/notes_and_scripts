@@ -88,6 +88,10 @@ git cherrypick 'my-new-commit-id'
 Solve the conflict.   
 Push and you are done. 
 
+### Outlook manage profiles
+```
+outlook.exe /manageprofiles
+```
 
 
 
