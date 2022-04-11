@@ -30,3 +30,24 @@
 ### Spaced repetitionn
 - SuperMemo
 - Anki
+
+### Wine & winetricks
+- `sudo apt-get install wine winetricks`
+-`winetricks dotnet45`
+
+### Password manager
+- Keepass 2
+  -`sudo apt-get install keepass2`
+
+### Text editor
+- meld
+  - `sudo apt install meld`
+
+### Various
+- Piper, mouse configuration
+  - `sudo apt install piper`
+- Gnome tweaks
+  - `sudo apt install gnome-tweaks`
+- Flameshot screen capture
+- 
+
