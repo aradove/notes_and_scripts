@@ -12,6 +12,12 @@
 ### Various
 - Autohotkey (Windows)
 - Freecommander (Windows)
+- Piper, mouse configuration
+  - `sudo apt install piper`
+- Gnome tweaks
+  - `sudo apt install gnome-tweaks`
+- Flameshot screen capture
+- Zeal, local documentation manager
 
 ### SSH
 - MobaXTerm
@@ -44,10 +50,6 @@
   - `sudo apt install meld`
 
 ### Various
-- Piper, mouse configuration
-  - `sudo apt install piper`
-- Gnome tweaks
-  - `sudo apt install gnome-tweaks`
-- Flameshot screen capture
+
 - 
 
